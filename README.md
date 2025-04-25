@@ -26,18 +26,16 @@ Real-time data refresh using polling
 
 PostgreSQL schema designed with normalization best practices
 
-🗂️ Folder Structure
-pgsql
-Copy
-
 ## 🚀 Getting Started
+
 1. Clone the repo
 bash
 Copy
 Edit
 git clone https://github.com/your-username/store-rating-platform.git
 cd store-rating-platform
-2. Backend Setup
+
+3. Backend Setup
 bash
 Copy
 Edit
@@ -51,12 +49,14 @@ Edit
 PORT=5000
 DATABASE_URL=postgresql://user:password@localhost:5432/storeapp
 JWT_SECRET=your_jwt_secret
+
 Start server:
 
 bash
 Copy
 Edit
 npm run dev
+
 3. Frontend Setup
 bash
 Copy
