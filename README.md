@@ -1,6 +1,8 @@
 ## Store Rating Platform – FullStack Intern Challenge
 A full-stack web application that enables users to register, log in, browse stores, and submit ratings. Features role-based access for System Administrators, Normal Users, and Store Owners.
 
+## Deployement : https://store-rating-app.vercel.app/user/dashboard
+
 ## 💻 Tech Stack
 Frontend: React.js
 
@@ -8,53 +10,6 @@ Backend: Express.js
 
 Database: PostgreSQL 
 
-## 🔐 User Roles & Permissions
-🔧 System Administrator
-Add normal/admin users & stores
-
-View dashboard:
-
-Total users
-
-Total stores
-
-Total submitted ratings
-
-Filter & view users and stores by Name, Email, Address, and Role
-
-View detailed user info (including ratings for Store Owners)
-
-👤 Normal User
-Register & log in
-
-View and search stores by Name or Address
-
-Submit/modify ratings (1–5) for any store
-
-View:
-
-Store Name, Address
-
-Overall rating
-
-Their own submitted rating
-
-Change password
-
-Logout
-
-🏪 Store Owner
-Log in
-
-View dashboard:
-
-List of users who rated their store
-
-Average rating of their store
-
-Change password
-
-Logout
 
 ## 📊 Features
 Responsive UI
@@ -112,24 +67,35 @@ npm run dev
 ## 📮 API Endpoints (Sample)
 
 Method	Endpoint	Description
+
 POST	/api/auth/login	User login
+
 POST	/api/auth/register	User registration
+
 GET	/api/stores	List all stores
+
 POST	/api/stores/rate/:storeId	Submit or update store rating
+
 GET	/api/admin/dashboard	Admin dashboard stats
+
 GET	/api/store-owner/dashboard	Store owner dashboard info
-🧪 Testing
+
+## 🧪 Testing
 You can test endpoints using Postman or Thunder Client. Sample collection included (if needed).
 
-📌 Notes
+## 📌 Notes
 Ensure PostgreSQL server is running
 
 Use roles to determine feature visibility in UI
 
 
-📸 Screenshots
-Include login screen, dashboard view, store list, and rating form screenshots here.
+## 📸 Screenshots
+![Screenshot_1](https://github.com/user-attachments/assets/4fb0ccde-d3a9-4223-a2dd-ca218d89ff4d)
+![Screenshot_2](https://github.com/user-attachments/assets/76df9e8a-dddc-4258-8498-30bb90882fc5)
+![image](https://github.com/user-attachments/assets/327641e1-9fab-4ac5-ad00-d9ce545a57ce)
+![image](https://github.com/user-attachments/assets/f7903dbd-d05b-4564-83bc-209477390246)
 
-📄 License
+
+## 📄 License
 This project is licensed under the MIT License.
 
